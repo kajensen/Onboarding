@@ -3,8 +3,9 @@ A simple swift onboarding view controller for iOS
 
 Entirely in code, show basic tutorial information including actionable callbacks (for requesting location access, etc).
 ```
+    let vc = OnboardingViewController()
+
     func showOnboarding() {
-        let vc = OnboardingViewController()
         vc.addImage(UIImage(named: "bg"), nextEnabled: false, image: UIImage(named: "location"), title: "LOCATION", text: "Onboarding needs your location to use the app. Can we use your phone's gps information?", actionTitle: "ALLOW LOCATION") {
             print("requesting location access")
             self.requestLocation()
