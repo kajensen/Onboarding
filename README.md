@@ -38,3 +38,5 @@ Entirely in code, show basic tutorial information including actionable callbacks
 
 # Usage
 Copy source folder into your project. Refer to ViewController.swift for example implementation.
+
+![Alt text](http://imgur.com/WNJ6m8N.png "screen")
